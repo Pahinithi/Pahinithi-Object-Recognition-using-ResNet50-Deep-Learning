@@ -1,8 +1,4 @@
-Certainly! Here's a more detailed version of the README file for your image classification Flask application:
-
----
-
-# Image Classification Web Application
+## Object Recognition using ResNet50
 
 This repository contains an image classification web application built using Flask and TensorFlow. The application allows users to upload an image, and the trained model predicts the class of the image from a set of predefined categories. This project showcases the integration of a deep learning model into a web application, making AI accessible and easy to use for end-users.
 
@@ -18,6 +14,8 @@ This repository contains an image classification web application built using Fla
 - [Future Work](#future-work)
 - [Contributing](#contributing)
 - [License](#license)
+- [Model](#model)
+- [Demo](#demo)
 
 ## Introduction
 
@@ -37,7 +35,7 @@ To set up the application on your local machine, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/image-classification-app.git
+   git clone https://github.com/Pahinithi/Pahinithi-Object-Recognition-using-ResNet50-Deep-Learning.git
    ```
 
 2. **Navigate to the project directory:**
@@ -117,15 +115,9 @@ To set up the application on your local machine, follow these steps:
 The ResNet50 model was fine-tuned using the CIFAR-10 dataset, with additional layers added to improve classification performance on this specific dataset. This process involved freezing the initial layers of ResNet50 and training only the top layers on CIFAR-10.
 
 ## Screenshots
+<img width="1728" alt="Screenshot 2024-08-22 at 12 13 37" src="https://github.com/user-attachments/assets/c642b70e-b257-499a-aabf-6fe255f2f3b7">
 
-### Homepage
-![Homepage Screenshot](https://via.placeholder.com/800x600?text=Homepage)
 
-### Image Upload
-![Upload Screenshot](https://via.placeholder.com/800x600?text=Upload+Image)
-
-### Prediction Result
-![Prediction Screenshot](https://via.placeholder.com/800x600?text=Prediction+Result)
 
 ## Directory Structure
 
@@ -158,8 +150,10 @@ Contributions are welcome! If you have any suggestions, bug reports, or enhancem
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. 
 
----
 
-Feel free to modify the details, especially the sections on model training and future work, based on your specific implementation. Adding actual screenshots of your application will make the README more engaging and informative. Let me know if you need any further assistance!
+## Model Link: 
+
+
+## Demo Link: https://drive.google.com/file/d/1Ocb9wngOaxDJM9oWuuMH1uxHj6kMV6Ky/view?usp=sharing
